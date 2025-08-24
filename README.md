@@ -1,12 +1,13 @@
-Variáveis CSS e Media Queries para Layout Responsivo
+Variáveis CSS e Media Queries para Layout Responsivo:   Acesse aqui: https://bettograpiuna.github.io/AprofundamentoCSS/
+
 Este projeto demonstra como usar variáveis CSS (--var) em conjunto com media queries (@media) para criar um layout web que se adapta a diferentes tamanhos de tela de forma eficiente e organizada. O objetivo é ajustar dinamicamente cores, tamanhos de fonte e espaçamentos com base na largura da tela.
 
-Tecnologias Utilizadas
+Tecnologias Utilizadas:
 HTML5: Para a estrutura e conteúdo da página.
 
 CSS3: Para a estilização e responsividade, utilizando variáveis CSS e media queries.
 
-Funcionalidades
+Funcionalidades:
 Design Responsivo: O layout da página se ajusta automaticamente para telas pequenas (smartphones), médias (tablets) e grandes (desktops).
 
 Variáveis CSS (:root): As cores de fundo, texto e tamanhos de fonte são armazenados em variáveis globais, tornando o código mais limpo e fácil de manter.
@@ -15,7 +16,7 @@ Media Queries: Modificam os valores das variáveis CSS em pontos de interrupçã
 
 Conteúdo Temático: O projeto utiliza um exemplo de notícia esportiva para demonstrar as mudanças de estilo.
 
-Estrutura do Projeto
+Estrutura do Projeto:
 O projeto é composto por apenas dois arquivos:
 
 index.html: Contém a estrutura da página (cabeçalho, parágrafos, etc.).
