@@ -35,8 +35,6 @@ Bash
 
 git clone [<URL_DO_REPOSITORIO>](https://github.com/bettograpiuna/AprofundamentoCSS.git)
 
-cd <AprofundamentoCSS>
-
 2. Executar no Visual Studio Code
 Você não precisa de um servidor local para este projeto, pois ele é estático.
 
