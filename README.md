@@ -1,4 +1,6 @@
-Variáveis CSS e Media Queries para Layout Responsivo:   Acesse aqui: https://bettograpiuna.github.io/AprofundamentoCSS/
+Variáveis CSS e Media Queries para Layout Responsivo:   
+
+Acesse aqui: https://bettograpiuna.github.io/AprofundamentoCSS/
 
 Este projeto demonstra como usar variáveis CSS (--var) em conjunto com media queries (@media) para criar um layout web que se adapta a diferentes tamanhos de tela de forma eficiente e organizada. O objetivo é ajustar dinamicamente cores, tamanhos de fonte e espaçamentos com base na largura da tela.
 
@@ -32,7 +34,9 @@ Se este projeto estiver em um repositório Git, clone-o para sua máquina:
 Bash
 
 git clone [<URL_DO_REPOSITORIO>](https://github.com/bettograpiuna/AprofundamentoCSS.git)
+
 cd <AprofundamentoCSS>
+
 2. Executar no Visual Studio Code
 Você não precisa de um servidor local para este projeto, pois ele é estático.
 
