@@ -1,0 +1,69 @@
+/* Telas pequenas (padrão e até 600px) */
+:root {
+    --cor-fundo: #e0f7fa;
+    --cor-h1: #1602c9;
+    --cor-destaque: #6f03f4;
+    --tamanho-h1: 1.5rem;
+    --tamanho-p: 1.1rem;
+}
+
+/*
+    Estilos iniciais aplicados a todos os elementos,
+    utilizando as variáveis definidas acima.
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: var(--tamanho-h1);
+    color: var(--cor-h1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destaque {
+    font-size: var(--tamanho-p);
+    font-weight: bold;
+    color: var(--cor-destaque);
+}
+
+.data {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: right;
+}
+
+/*
+    Modificando as variáveis dentro das media queries para telas médias e grandes.
+*/
+
+/* Telas médias (de 601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    :root {
+        --cor-fundo: #fff8e1;
+        --cor-h1: #1976d2;
+        --cor-destaque: #ff8c00;
+        --tamanho-h1: 2.5rem;
+        --tamanho-p: 1.3rem;
+    }
+}
+
+/* Telas grandes (a partir de 1025px) */
+@media (min-width: 1025px) {
+    :root {
+        --cor-fundo: #f5f5f5;
+        --cor-h1: #f50703;
+        --cor-destaque: #2e7d32;
+        --tamanho-h1: 3rem;
+        --tamanho-p: 1.5rem;
+    }
+    main {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
